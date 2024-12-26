@@ -144,7 +144,7 @@ const Calculator = () => {
         </ScrollArea>
       </div>
 
-      <div className="bg-secondary p-4 rounded-lg">
+      <div className="bg-[#1e293b] p-4 rounded-lg border-2 border-primary/20 shadow-lg">
         <h2 className="text-lg font-semibold mb-4">History</h2>
         <History
           history={history}
