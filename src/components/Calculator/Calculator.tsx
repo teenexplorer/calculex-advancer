@@ -112,7 +112,7 @@ const Calculator = () => {
             <Button onClick={() => handleScientificFunction('cbrt')}>∛</Button>
             <Button onClick={() => appendToExpression('e')}>e</Button>
             <Button onClick={() => appendToExpression('pi')}>π</Button>
-            <Button onClick={() => appendToExpression('!')}></Button>
+            <Button onClick={() => appendToExpression('!')}>!</Button>
 
             {/* Parentheses and Clear */}
             <Button onClick={() => appendToExpression('(')}>(</Button>
